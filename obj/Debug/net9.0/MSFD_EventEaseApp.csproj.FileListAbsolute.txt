@@ -815,7 +815,6 @@ C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\scopedcss\projectb
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\blazor.build.boot-extension.json
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\blazor.boot.json
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\iz2n93e6mw-8rbvw3on5j.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\wp42exhop0-bl6xxw5isw.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\nr6s95lckl-bqjiyaj88i.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\7advhvm7vl-c2jlpeoesf.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\rmxg7hmv0y-erw9l3u2r3.gz
@@ -860,7 +859,6 @@ C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\ezaxtf0
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\mxenoaxi39-v7joaivske.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\cxigyyrjdr-63fj8s7r0e.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\568mwextkf-h1dwf8guks.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\7zez42cx6y-iag0ou56lh.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\8y2yebqtvc-md9yvkcqlf.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\le5xa4ka88-ch3a09c2tk.gz
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\mp5p1ypgrl-ch3a09c2tk.gz
@@ -1073,10 +1071,12 @@ C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\MSFD_EventEaseApp.
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\refint\MSFD_EventEaseApp.dll
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\MSFD_EventEaseApp.pdb
 C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\ref\MSFD_EventEaseApp.dll
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.jvoymf4mdp.wasm
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.g0pz12kenm.pdb
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.jvoymf4mdp.wasm.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.g0pz12kenm.pdb.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\4myktu3dl6-jvoymf4mdp.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\op3iksmwdb-g0pz12kenm.gz
-C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\94dlry3h36-3uhbl1bir0.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\MSFD_EventEaseApp.sourcelink.json
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\wp42exhop0-bl6xxw5isw.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.lqdibaqp8r.wasm
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.wdhxmamm6e.pdb
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.lqdibaqp8r.wasm.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\MSFD_EventEaseApp.wdhxmamm6e.pdb.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\4myktu3dl6-lqdibaqp8r.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\op3iksmwdb-wdhxmamm6e.gz
+C:\Users\E320418\EventEase\MSFD_EventEaseApp\obj\Debug\net9.0\compressed\94dlry3h36-wie7n2svd1.gz

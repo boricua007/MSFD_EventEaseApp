@@ -30,6 +30,38 @@ namespace MSFD_EventEaseApp.Services
             return Task.FromResult(filteredEvents);
         }
 
+        public Task<List<Event>> SearchEventsAsync(string? eventName = null, string? location = null, string? category = null, DateTime? date = null)
+        {
+            var query = _events.AsQueryable();
+
+            if (!string.IsNullOrEmpty(eventName))
+            {
+                query = query.Where(e => e.Name.Contains(eventName, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (!string.IsNullOrEmpty(location))
+            {
+                query = query.Where(e => e.Location.Contains(location, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (!string.IsNullOrEmpty(category))
+            {
+                query = query.Where(e => e.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (date.HasValue)
+            {
+                query = query.Where(e => e.Date.Date == date.Value.Date);
+            }
+
+            return Task.FromResult(query.ToList());
+        }
+
+        public List<string> GetAllCategories()
+        {
+            return _events.Select(e => e.Category).Distinct().OrderBy(c => c).ToList();
+        }
+
         private List<Event> GenerateSampleEvents()
         {
             return new List<Event>

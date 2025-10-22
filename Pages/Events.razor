@@ -15,6 +15,15 @@
         </div>
     </div>
 
+    <!-- Event Search Component -->
+    <div class="row">
+        <div class="col-12">
+            <EventSearch Categories="@categories" 
+                        OnSearch="HandleSearch" 
+                        OnClearFilters="HandleClearFilters" />
+        </div>
+    </div>
+
     @if (isLoading)
     {
         <div class="text-center">
@@ -46,18 +55,52 @@
 
 @code {
     private List<Event>? events;
+    private List<string>? categories;
     private bool isLoading = true;
 
     protected override async Task OnInitializedAsync()
     {
         isLoading = true;
         await LoadEvents();
+        LoadCategories();
         isLoading = false;
     }
 
     private async Task LoadEvents()
     {
         events = await EventService.GetAllEventsAsync();
+    }
+
+    private void LoadCategories()
+    {
+        categories = EventService.GetAllCategories();
+    }
+
+    private async Task HandleSearch(SearchCriteria criteria)
+    {
+        isLoading = true;
+        StateHasChanged();
+
+        events = await EventService.SearchEventsAsync(
+            eventName: criteria.EventName,
+            location: criteria.Location,
+            category: criteria.Category,
+            date: criteria.Date
+        );
+
+        isLoading = false;
+        StateHasChanged();
+    }
+
+    private async Task HandleClearFilters()
+    {
+        isLoading = true;
+        StateHasChanged();
+        
+        await LoadEvents();
+        
+        isLoading = false;
+        StateHasChanged();
     }
 
     private void HandleViewDetails(int eventId)
