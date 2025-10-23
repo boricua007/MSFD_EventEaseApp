@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudFNlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/E320418/EventEase/MSFD_EventEaseApp/Components/OptimizedEventCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPcHRpbWl6ZWRFdmVudENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/E320418/EventEase/MSFD_EventEaseApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,8 +52,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/E320418/EventEase/MSFD_EventEaseApp/Pages/EventsOptimized.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzT3B0aW1pemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/E320418/EventEase/MSFD_EventEaseApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/E320418/EventEase/MSFD_EventEaseApp/Pages/InvalidEventId.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52YWxpZEV2ZW50SWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/E320418/EventEase/MSFD_EventEaseApp/_Imports.razor]

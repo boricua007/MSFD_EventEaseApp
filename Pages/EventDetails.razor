@@ -47,7 +47,7 @@ else
                         <div class="row mb-4">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-center mb-3">
-                                    <span class="badge bg-secondary me-2">@eventItem.Category</span>
+                                    <span class="badge bg-secondary small me-2">@eventItem.Category</span>
                                 </div>
                             </div>
                             <div class="col-md-6 text-md-end">
@@ -192,13 +192,52 @@ else
 
     protected override async Task OnParametersSetAsync()
     {
+        // Enhanced validation for EventId parameter
+        var currentUrl = Navigation.Uri;
+        var urlSegments = currentUrl.Split('/');
+        var eventIdSegment = urlSegments.Length > 0 ? urlSegments.LastOrDefault() : null;
+        
+        // Check for various invalid formats
+        if (eventIdSegment != null)
+        {
+            // Check if contains decimal point, letters, or other invalid characters
+            if (eventIdSegment.Contains('.') || 
+                eventIdSegment.Any(c => !char.IsDigit(c) && c != '-') ||
+                eventIdSegment.Contains("--") ||
+                eventIdSegment.Length > 10) // Prevent overflow attempts
+            {
+                Navigation.NavigateTo("/invalid-event-id", true);
+                return;
+            }
+        }
+
+        // Validate EventId parameter
+        if (EventId <= 0)
+        {
+            eventItem = null;
+            isLoading = false;
+            return;
+        }
+
         if (eventItem?.EventId != EventId)
         {
             isLoading = true;
             StateHasChanged();
-            await LoadEventDetails();
-            isLoading = false;
-            StateHasChanged();
+            
+            try
+            {
+                await LoadEventDetails();
+            }
+            catch (Exception)
+            {
+                // Handle any service errors gracefully
+                eventItem = null;
+            }
+            finally
+            {
+                isLoading = false;
+                StateHasChanged();
+            }
         }
     }
 
