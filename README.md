@@ -1,6 +1,6 @@
 # MSFD Event Ease App
 MSFD Event Ease App
-A comprehensive Blazor WebAssembly application demonstrating full-stack event management with advanced validation, performance optimization, and robust error handling.
+A comprehensive Blazor WebAssembly application developed by Daisy Allen, demonstrating full-stack event management with advanced validation, performance optimization, and robust error handling.
 
 ## Project Overview
 This project showcases enterprise-level web application development in Blazor WebAssembly, featuring:

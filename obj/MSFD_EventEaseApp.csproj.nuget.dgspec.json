@@ -1,42 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E320418\\EventEase\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj": {}
+    "C:\\Users\\daisy\\source\\repos\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E320418\\EventEase\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj": {
+    "C:\\Users\\daisy\\source\\repos\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E320418\\EventEase\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj",
+        "projectUniqueName": "C:\\Users\\daisy\\source\\repos\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj",
         "projectName": "MSFD_EventEaseApp",
-        "projectPath": "C:\\Users\\E320418\\EventEase\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj",
-        "packagesPath": "C:\\Users\\E320418\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E320418\\EventEase\\MSFD_EventEaseApp\\obj\\",
+        "projectPath": "C:\\Users\\daisy\\source\\repos\\MSFD_EventEaseApp\\MSFD_EventEaseApp.csproj",
+        "packagesPath": "C:\\Users\\daisy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daisy\\source\\repos\\MSFD_EventEaseApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\E320418\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Users\\daisy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/miamidadecounty/_packaging/MDC/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -54,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -72,13 +62,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             }
           },
@@ -96,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.8, 9.0.8]"
+              "version": "[9.0.1, 9.0.1]"
             }
           ],
           "frameworkReferences": {
@@ -104,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
